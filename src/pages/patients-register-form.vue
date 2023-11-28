@@ -1,5 +1,5 @@
 <script setup>
-import DemoFormLayoutVerticalFormWithIcons from '@/views/pages/form-layouts/DemoFormLayoutVerticalFormWithIcons.vue'
+import PatientsRegisterForm from '@/views/pages/form-layouts/PatientsRegisterForm.vue'
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import DemoFormLayoutVerticalFormWithIcons from '@/views/pages/form-layouts/Demo
         <!-- 👉 Vertical Form with Icons -->
         <VCard title="患者情報登録">
           <VCardText>
-            <DemoFormLayoutVerticalFormWithIcons />
+            <PatientsRegisterForm />
           </VCardText>
         </VCard>
       </VCol>

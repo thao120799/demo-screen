@@ -1,16 +1,12 @@
 <script setup>
-import DemoSimpleTableBasics from '@/views/pages/tables/DemoSimpleTableBasics.vue'
-import DemoSimpleTableDensity from '@/views/pages/tables/DemoSimpleTableDensity.vue'
-import DemoSimpleTableFixedHeader from '@/views/pages/tables/DemoSimpleTableFixedHeader.vue'
-import DemoSimpleTableHeight from '@/views/pages/tables/DemoSimpleTableHeight.vue'
-import DemoSimpleTableTheme from '@/views/pages/tables/DemoSimpleTableTheme.vue'
+import CardMetricsMonitoring from '@/views/pages/cards/card-basic/CardMetricsMonitoring.vue'
 </script>
 
 <template>
   <VRow>
     <VCol cols="12">
       <VCard title="数値モニター">
-        <DemoSimpleTableBasics />
+        <CardMetricsMonitoring />
       </VCard>
     </VCol>
   </VRow>

@@ -57,7 +57,7 @@ const upgradeBanner = computed(() => {
         :item="{
           title: '患者情報管理',
           icon: 'bxs-user',
-          to: '/patients-register-form',
+          to: '/patients-list',
         }"
       />
       <VerticalNavLink

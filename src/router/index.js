@@ -48,6 +48,10 @@ const router = createRouter({
           path: 'trend-graph',
           component: () => import('../pages/trend-graph.vue'),
         },
+        {
+          path: 'patients-list',
+          component: () => import('../pages/patients-list.vue'),
+        },
       ],
     },
     {

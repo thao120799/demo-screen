@@ -57,7 +57,9 @@ const desserts = [
           {{ '24-2-2022' }}
         </td>
         <td class="text-center">
-          {{ item.protein }}
+        <VBtn type="submit">
+          患者情報詳細
+        </VBtn>
         </td>
       </tr>
     </tbody>
