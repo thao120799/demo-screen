@@ -4,13 +4,13 @@ for (let i = 0; i < 15; i++) {
   patients.push({
     id: i,
     name: "患者" + i,
-    name_in_furigana: "kanja " + i,
+    name_in_furigana: "かんじゃ " + i,
     birthday: "1999-12-12",
-    address: "abc",
+    address: "埼玉県浦和市４−５−６ABC１２３",
     mail: "abc@gmail.com",
     phone_number: "080-2345-2321",
-    insurance_company: "ABC",
-    device_type: "ABC",
+    insurance_company: "ABC保健所",
+    device_type: "ABC端末",
     disease_level: "none",
   });
 }
